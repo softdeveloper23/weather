@@ -83,6 +83,10 @@
   --radius-pill: 500px;
   --radius-circle: 50%;
 
+  /**
+   * TRANSITION
+   */
+  --transition-short: 100ms ease;
 }
 
 
