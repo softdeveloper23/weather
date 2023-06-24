@@ -166,6 +166,26 @@ body {
   overflow: hidden;
 }
 
+:focus-visible {
+  outline: 2px solid var(--white);
+  outline-offset: 2px;
+}
+
+::selection {
+  background-color: var(--white-alpha-8);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  /* For the horizontal scrollbar functionality. */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--white-alpha-8);
+  border-radius: var(--radius-pill);
+}
+
 /*-----------------------------------*\
   #MATERIAL ICON
 \*-----------------------------------*/
