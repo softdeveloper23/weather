@@ -189,6 +189,13 @@ body {
 /*-----------------------------------*\
   #MATERIAL ICON
 \*-----------------------------------*/
+@font-face {
+  font-family: 'Material Symbols Rounded';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../font/material-symbol-rounded.woff2);
+}
+
 
 
 
