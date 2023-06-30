@@ -398,6 +398,32 @@ body {
   outline: none;
 }
 
+.search-field::placeholder {
+  color: var(--on-surface-variant-2);
+}
+
+.search-field::-webkit-search-cancel-button {
+  display: none;
+}
+
+.search-wrapper .leading-icon {
+  position: absolute;
+  top: 50%;
+  left: 28px;
+  transform: translate(-50%, -50%);
+}
+
+.search-wrapper>.m-icon {
+  display: none;
+}
+
+.search-wrapper .icon-btn {
+  background-color: transparent;
+  box-shadow: none;
+}
+
+
+
 /*-----------------------------------*\
   #CURRENT WEATHER
 \*-----------------------------------*/
