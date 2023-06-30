@@ -300,7 +300,9 @@ body {
   cursor: not-allowed;
 }
 
-
+.btn-primary[disabled]::before {
+  display: none;
+}
 
 /*-----------------------------------*\
   #HEADER
