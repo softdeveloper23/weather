@@ -259,6 +259,15 @@ body {
   transition: var(--transition-short);
 }
 
+.has-state:hover::before {
+  background-color: var(--white-alpha-4);
+}
+
+.has-state:is(:focus, :focus-visible)::before {
+  background-color: var(--white-alpha-8);
+  animation: ripple 250ms ease forwards;
+}
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
