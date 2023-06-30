@@ -238,6 +238,26 @@ body {
   border-radius: var(--radius-circle);
 }
 
+.has-state {
+  position: relative;
+}
+
+.has-state:hover {
+  box-shadow: var(--shadow-1);
+}
+
+.has-state:is(:focus, :focus-visible) {
+  box-shadow: none;
+}
+
+.has-state::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  clip-path: circle(100% at 50% 50%);
+  transition: var(--transition-short);
+}
 
 /*-----------------------------------*\
   #HEADER
