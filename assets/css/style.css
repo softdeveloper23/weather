@@ -387,7 +387,16 @@ body {
   }
 }
 
+.search-wrapper:has(.searching)::before {
+  display: block;
+}
 
+.search-field {
+  height: 80px;
+  line-height: 80px;
+  padding-inline: 56px 16px;
+  outline: none;
+}
 
 /*-----------------------------------*\
   #CURRENT WEATHER
