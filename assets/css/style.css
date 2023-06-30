@@ -278,6 +278,20 @@ body {
   }
 }
 
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--on-primary);
+  height: 48px;
+  max-width: max-content;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-inline: 16px;
+  border-radius: var(--radius-pill);
+}
+
+
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
