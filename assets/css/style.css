@@ -436,6 +436,16 @@ body {
   padding-inline: 16px 24px;
 }
 
+.search-view .view-item :is(.m-icon, .item-subtitle) {
+  color: var(--on-surface-variant);
+}
+
+.search-view .view-item .item-link {
+  position: absolute;
+  inset: 0;
+  box-shadow: none;
+}
+
 /*-----------------------------------*\
   #CURRENT WEATHER
 \*-----------------------------------*/
