@@ -304,6 +304,18 @@ body {
   display: none;
 }
 
+.card {
+  background-color: var(--surface);
+  color: var(--on-surface);
+}
+
+.card-lg {
+  border-radius: var(--radius-28);
+  padding: 20px;
+}
+
+
+
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
