@@ -314,6 +314,16 @@ body {
   padding: 20px;
 }
 
+.card-sm {
+  border-radius: var(--radius-16);
+  padding: 16px;
+}
+
+.heading {
+  color: var(--white);
+  font-size: var(--heading);
+  line-height: 1.1;
+}
 
 
 /*-----------------------------------*\
