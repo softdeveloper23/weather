@@ -529,6 +529,20 @@ article.container {
   overflow-y: overlay;
 }
 
+article.container::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+article.container:is(:hover, :focus-within)::-webkit-scrollbar-thumb {
+  background-color: var(--white-alpha-8);
+}
+
+article.container::-webkit-scrollbar-button {
+  height: 10px;
+}
+
+
+
 
 
 /*-----------------------------------*\
