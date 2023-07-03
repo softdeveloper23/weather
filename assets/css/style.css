@@ -552,7 +552,9 @@ article.container::before {
   z-index: 1;
 }
 
-
+.section:not(:last-child) {
+  margin-block-end: 16px;
+}
 
 
 /*-----------------------------------*\
