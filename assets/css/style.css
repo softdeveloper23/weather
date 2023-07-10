@@ -810,8 +810,12 @@ article.container::before {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* display: none; */
+  display: none;
   z-index: 8;
+}
+
+.error-content .btn-primary {
+  margin-block-start: 20px;
 }
 
 
